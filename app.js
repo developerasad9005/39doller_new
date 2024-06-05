@@ -199,6 +199,15 @@ document.getElementById('shop').addEventListener('click', function() {
    else if(shop_name === "Gap"){
     document.getElementById('bg_image').src = 'image/gap.png';
    }
+   else if(shop_name === "Wallmart"){
+    document.getElementById('bg_image').src = 'image/wallmart.png';
+   }
+   else if(shop_name === "target"){
+    document.getElementById('bg_image').src = 'image/target.png';
+   }
+   else if(shop_name === "circle"){
+    document.getElementById('bg_image').src = 'image/circle.png';
+   }
 })
 
 // document.getElementById('nameChanger').addEventListener('click', function () {
