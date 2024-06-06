@@ -208,6 +208,9 @@ document.getElementById('shop').addEventListener('click', function() {
    else if(shop_name === "circle"){
     document.getElementById('bg_image').src = 'image/circle.png';
    }
+   else if(shop_name === "safeway"){
+    document.getElementById('bg_image').src = 'image/safeway.png';
+   }
 })
 
 // document.getElementById('nameChanger').addEventListener('click', function () {
